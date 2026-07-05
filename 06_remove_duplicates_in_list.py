@@ -30,3 +30,15 @@ for n in numbers:
     if n not in unique:
         unique.append(n)
     print(f"n={n}, unique={unique}")  
+    
+
+# forth way in strings
+
+alphabets = ["b", "a", "b", "c", "a"]
+
+unique = []
+
+for n in alphabets:
+    if n not in unique:
+        unique.append(n)
+print(unique)
